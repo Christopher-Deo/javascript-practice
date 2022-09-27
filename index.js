@@ -323,10 +323,11 @@ console.log(multiplier())
 
 console.log('Exercise 10');
 
-
-
-
-
+function conversion(kilometers){
+  let miles = kilometers * 0.621371;
+  return miles;
+}
+console.log(conversion(2));
 
 
 // Exercise 11
@@ -383,8 +384,14 @@ console.log('Exercise 12');
 
 console.log('Exercise 13');
 
+let arr1 = [2,9,1,15,32,3,10,99];
+let arr2 = [-1,-9,-10,-12,-15,-99];
 
+arr1.sort(function(a,b){return a-b});
+console.log (arr1);
 
+arr2.sort(function(a,b){return a-b});
+console.log(arr2);
 
 
 
@@ -399,7 +406,15 @@ console.log('Exercise 13');
 
 console.log("Exercise 14");
 
+// write function that takes array of numbers as argument
+// remove all negative numbers 
+// return only the positive numbers
+let arr3 = [2,9,-1,15,-32,-3,-10,99];
 
+function eliminateNegatives(arr){
+
+  for (let i = 0; i < arrr3.length; i++)
+}
 
 
 
