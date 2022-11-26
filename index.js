@@ -413,7 +413,7 @@ let arr3 = [2,9,-1,15,-32,-3,-10,99];
 
 function eliminateNegatives(arr){
 
-  for (let i = 0; i < arrr3.length; i++)
+  for (let i = 0; i < arr3.length; i++)
 }
 
 
