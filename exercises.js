@@ -6,40 +6,23 @@
 // Inclusive means that the range includes lowNum and highNum.
 
 // Hint: this function only needs to print using console.log it does not need to return.
-
-
-
 console.log('This is Exercise 1');
 
-function logBetween(lowNum, highNum) {
-    // console.log("This is the ", lowNum);
 
-    for (let i = lowNum; i <= highNum; i += 1) {
-      console.log(i);
-    }
-  }
-
-  function logBetweenWhile(lowNum, highNum) {
-    let i = lowNum;
-    while (i <= highNum) {
-      console.log(i);
-      i++;
-    }
-  }
 //   data to be passed into the parameter as arguments when function is called
-  // Examples:
-  logBetween(-1, 2); // prints out:
-  // -1
-  // 0
-  // 1
-  // 2
-  
-  logBetween(14, 6); // => prints nothing
-  
-  logBetween(4, 6); // prints out:
-  // 4
-  // 5
-  // 6
+// Examples:
+logBetween(-1, 2); // prints out:
+// -1
+// 0
+// 1
+// 2
+
+logBetween(14, 6); // => prints nothing
+
+logBetween(4, 6); // prints out:
+// 4
+// 5
+// 6
 
 
 
@@ -54,31 +37,16 @@ function logBetween(lowNum, highNum) {
 // create a function printFives with a parameter of max.
 
 console.log('This is Exercise 2');
+//your code here:
 
-function printFives(max){   
-  for (let i = 0; i < max; i ++){
-    if (i % 5 === 0){
-        console.log("this is ", (i))
-      } else {
-        console.log("Error " + max + " is not a multiple of 5" )
-        }
-      }
-          }
-    printFives(16) 
 
 // data to be passed into function when called
 
 // prints out:
-
 // 0
 // 5
 // 10
 // 15
-
-
-
-
-
 
 
 
@@ -92,20 +60,11 @@ function printFives(max){
 // Hint: this function only needs to print using console.log it does not need to return.
 
 console.log('This is Exercise 3');
-
-function logBetweenStepper(min, max, step){
-  for (let i = min; i <= max; i += step) {
-    // if{ i <= max;
-      // console.log(step);
-      console.log(i);
-    // }
-  }
-  
-}
+//your code here:
 
 // Examples:
 // un-comment the code below before running your code.
-logBetweenStepper(5, 9, 1); // prints out:
+//logBetweenStepper(5, 9, 1); // prints out:
 // 5
 // 6
 // 7
@@ -113,8 +72,7 @@ logBetweenStepper(5, 9, 1); // prints out:
 // 9
 
 // un-comment the line below before running your code
-logBetweenStepper(-10, 15, 5)  
-
+//logBetweenStepper(-10, 15, 5);
 // prints out:
 // -10
 // -5
@@ -124,13 +82,6 @@ logBetweenStepper(-10, 15, 5)
 // 15
 
 
-
-
-
-
-
-
-
 // Exercise 4
 
 // Define a function fizzBuzz(max) that takes a number and prints every 
@@ -138,23 +89,12 @@ logBetweenStepper(-10, 15, 5)
 // but not both.
 
 console.log('Exercise 4');
-
-function fizzBuzz(max){
-  for(let i = 0; i < max; i++){
-    if((i % 3 ==0 || i % 5 == 0) && (i % 5 == 0 != i % 3 == 0)) {
-console.log(i);
-
-    }
-    
-      
-  }
-}
-
+//Your code here:
 
 // Examples:
 // un-comment the line below before running your code
 
-fizzBuzz(20); 
+//fizzBuzz(20);
 
 // expected returns listed below
 // 3
@@ -176,14 +116,11 @@ fizzBuzz(20);
 // this method won't permanently change, also known as mutate, either array.
 
 console.log('Exercise 5');
-
-function combineArray(array1, array2){
-console.log(array1.concat(array2));
-}
+//write your code below:
 
 // un-comment the lines below before running your code
-console.log(combineArray([1, 2], [3, 4])); // Expected returns => [1, 2, 3, 4]
-console.log(combineArray([17, 5], [6, 7]));  //Expected returns => [17, 5, 6, 7]
+//console.log(combineArray([1, 2], [3, 4])); // Expected returns => [1, 2, 3, 4]
+//console.log(combineArray([17, 5], [6, 7]));  //Expected returns => [17, 5, 6, 7]
 
 
 
@@ -194,26 +131,13 @@ console.log(combineArray([17, 5], [6, 7]));  //Expected returns => [17, 5, 6, 7]
 // and returns a new array where every element of the original array 
 // is multiplied by 2.
 
-// console.log('Exercise 6');
-// let product = [];
-// let array1= [1, 2, 3, 4];
-// let arr2= [7, 1, 8];
+console.log('Exercise 6');
+//your code here
 
-// function doubler(arr) {
-  
-//   let total = 0;
-//    for (i = 0; i < length.arr; i++) {
-//     let dub = arr[i];
-//      let double = dub * 2
-//      product.map(arr);
-//       }
-      
-//     }
 
-// // un-comment lies below before runing your code
+// // un-comment lies below before running your code
 // console.log(doubler([1, 2, 3, 4])); // => [2, 4, 6, 8]
 // console.log(doubler([7, 1, 8])); // => [14, 2, 16]
-console.log('!!!!!!!!!THIS IS NOT WORKING!!!!!');
 
 
 
@@ -225,54 +149,26 @@ console.log('!!!!!!!!!THIS IS NOT WORKING!!!!!');
 
 console.log('Exercise 7');
 
-// un-comment starter code below to start
- 
 const vowels = ['a', 'e', 'i', 'o', 'u'];
-
-function countVowels(text) {
-    let counter = 0
-    for( let letter of text.toLowerCase()){
-      if(vowels.includes(letter)){
-        counter++
-      }
-    }
-	    console.log(`The text contains ${counter} vowel(s)`)
-      return counter
-  }
-  
-
+//your code here:
 
 // un-comment lines below before running your code
 
-  console.log(countVowels("bootcamp")); // expected return => 3
-  console.log(countVowels("apple")); //expected return  => 2
-  console.log(countVowels("pizza")); //expected return => 2
+//console.log(countVowels("bootcamp")); // expected return => 3
+//console.log(countVowels("apple")); //expected return  => 2
+//console.log(countVowels("pizza")); //expected return => 2
 
 
 //   Exercise 8
 console.log('Exercise 8');
 // 1. Print all even numbers from 0 – 10
 
-let initialNumbers = [1,2,3,4,5,6,7,8,9,10]
-let evens = [];
-let odds = [];
 
-function evenNumbers(arr){
-  for(i = 0; i < arr.length; i++){
-    // **************think I need another variable here*********
-      if(initialNumbers[i] % 2){
-        evens.map(arr);
-      } else{
-        odds.map(arr);
-      }
-  }
-  return evens;
-  return odds;
-}
-console.log(evens);
-console.log(odds);
+// 2. Print all numbers divisible by 5 from 10 to 1 (inclusive)
 
 
+// 3. Print all numbers divisible by 5 and 3 from 10 to 1 (inclusive)
+//your code here:
 
 
 
@@ -291,25 +187,10 @@ console.log('Exercise 9');
 // multiply the value of each item in the list by 10
 // push the new value to another list containing the multiples of 10 
 
-let numbers = [1,2,3,4,5,6,7,8,9,10];
-
-
-function multiplier(arr){
-  let multiplied = [];
-  
-  for (i = 0; i < numbers.length; i++){
-    let value = i + 1;
-    newValue = value * 10;
-    multiplied.push(newValue);
-  }
-  return multiplied
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function multiplier(arr) {
+//your code here:    
 }
-multiplier(numbers);
-console.log(multiplier())
-
-
-
-
 
 
 
@@ -322,12 +203,8 @@ console.log(multiplier())
 // return the answer in miles.
 
 console.log('Exercise 10');
+//Your code here:
 
-function conversion(kilometers){
-  let miles = kilometers * 0.621371;
-  return miles;
-}
-console.log(conversion(2));
 
 
 // Exercise 11
@@ -347,7 +224,7 @@ console.log(conversion(2));
 
 console.log("Exercise 11");
 
-
+//Your code here:
 
 
 
@@ -366,7 +243,9 @@ console.log("Exercise 11");
 // and then try your program with a larger array to verify its success.
 
 console.log('Exercise 12');
-
+//Your code here    
+// Bonus intermediate challenge: Create a function that can return the
+    // sum of a particular column or row number in a table.
 
 
 
@@ -384,14 +263,9 @@ console.log('Exercise 12');
 
 console.log('Exercise 13');
 
-let arr1 = [2,9,1,15,32,3,10,99];
-let arr2 = [-1,-9,-10,-12,-15,-99];
-
-arr1.sort(function(a,b){return a-b});
-console.log (arr1);
-
-arr2.sort(function(a,b){return a-b});
-console.log(arr2);
+let arr1 = [2, 9, 1, 15, 32, 3, 10, 99];
+let arr2 = [-1, -9, -10, -12, -15, -99];
+//Your code here
 
 
 
@@ -409,14 +283,8 @@ console.log("Exercise 14");
 // write function that takes array of numbers as argument
 // remove all negative numbers 
 // return only the positive numbers
-let arr3 = [2,9,-1,15,-32,-3,-10,99];
-
-function eliminateNegatives(arr){
-
-  for (let i = 0; i < arr3.length; i++)
-}
-
-
+//let arr3 = [2, 9, -1, 15, -32, -3, -10, 99];
+//Write code below
 
 
 // Exercise 15
@@ -429,7 +297,7 @@ function eliminateNegatives(arr){
 //  such as zip codes.
 
 console.log("Exercise 15");
-
+//Place your code here
 
 // Exercise 16
 
@@ -441,8 +309,8 @@ console.log("Exercise 15");
 // Otherwise, your program should return a "false" answer.
 
 console.log("Exercise 16");
-
-
+//Place your code here
+//let arr4 = [2, 9, 1, 15, 32, 3, 10, 99];
 
 
 
@@ -461,4 +329,4 @@ console.log("Exercise 16");
 //  of characters.
 
 console.log("Exercise 17");
-
+// place your code here
